@@ -192,7 +192,7 @@ open class OfflineBar: UIView {
         NotificationCenter.default.removeObserver(self)
     }
     
-    func reachabilityChanged(_ notification: NSNotification) {
+    @objc func reachabilityChanged(_ notification: NSNotification) {
         switch self.style {
         case .reload:
             self.switchConnectivityForInternetConection()
@@ -201,7 +201,7 @@ open class OfflineBar: UIView {
         }
     }
     
-    func applicationWillEnterForeground(_ notification: NSNotification) {
+    @objc func applicationWillEnterForeground(_ notification: NSNotification) {
         switch self.style {
         case .reload:
             self.switchConnectivityForInternetConection()
@@ -347,7 +347,7 @@ open class OfflineBar: UIView {
     
     // MARK: - Button Action
     
-    func rightButtonDidTap(_ sender: UIButton) {
+    @objc func rightButtonDidTap(_ sender: UIButton) {
         switch self.style {
         case .reload:
             self.delegate?.offlineBar?(self, didTappedReloadButton: sender)
