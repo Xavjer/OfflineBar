@@ -1,5 +1,5 @@
 # OfflineBar
- 
+
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
              )](https://developer.apple.com/iphone/index.action)
 [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
@@ -13,7 +13,7 @@
 ![OfflineBar](https://github.com/snoozelag/OfflineBar/blob/master/README_resources/OfflineBarDemo20170511.gif)
 
 ## Requirements ##
-* Swift 3.0
+* Swift 4.0
 * iOS 8.0+
 * Xcode 8
 
@@ -27,9 +27,9 @@ pod "OfflineBar"
 
 Then `$ pod install`
 - Add `import OfflineBar` to the top of your files where you wish to use it.  
-  
+
 ## Usage ##
-  
+
 Here is the code for this example project. .  
 ```swift
 import UIKit
@@ -53,10 +53,10 @@ class ViewController: UIViewController {
 - [:link: iOS Example Project](https://github.com/snoozelag/OfflineBar/tree/master/Example/OfflineBarExample)
 
 ## Author
-  
+
 Teruto Yamasaki, y.teruto@gmail.com
-  
+
 ## License ##
-  
+
 The MIT License (MIT)
 See the LICENSE file for more info.  
