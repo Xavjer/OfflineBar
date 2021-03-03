@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version  = '0.1.5'
   s.license  = 'MIT'
   s.summary  = 'OfflineBar is a custom view that looks like the bar you see when facebook or slack iOS app is offline.'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.homepage = 'https://github.com/snoozelag/OfflineBar'
   s.author   = { 'Teruto Yamasaki' => 'y.teruto@gmail.com' }
   s.social_media_url = 'https://twitter.com/snoozelag'
